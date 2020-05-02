@@ -1,0 +1,14 @@
+Python 
+
+print statement: print('helloworld')
+
+
+python code executes line by line
+print('*' * 10) we get 10 stars here
+we can declare variables in python and use them when ever wanted
+name = "nithees"
+print(name)
+receiving input in python:
+we use input function in python to take input
+name = input(what your name?)
+print(name)
