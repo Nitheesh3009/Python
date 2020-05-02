@@ -12,3 +12,25 @@ receiving input in python:
 we use input function in python to take input
 name = input(what your name?)
 print(name)
+
+type conversion:
+In python the input is taken as a string and this will be a problem because even when we 
+pass integer it is taken as string so use int() function which is used to convert string into integer
+int(variable)
+
+
+
+
+
+
+
+
+
+
+
+================================================================
+python functions:
+print()-> for printing the data
+input()-> to recievie input
+type()-> this is used to find the tyoe of the variable
+int(variable)-> this is used to convert string into integer
