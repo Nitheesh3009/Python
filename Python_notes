@@ -18,11 +18,83 @@ In python the input is taken as a string and this will be a problem because even
 pass integer it is taken as string so use int() function which is used to convert string into integer
 int(variable)
 
+String:
+In python we use Apostrophe and quotation marks for strings if we want any of the word to be used
+with Apostrophe then the string should be placed in quotation marks and vice versa
+Example: name = "python's course"
+name = 'python for "beginners" '
+In python we use '''''' triple apostrophe or triple quotation to write multiple lines
+ name = '''hi
+ what your name
+ my anke is asd
+ '''
+We can get character at a particular index in python using square brackets and we can also get the indexes from
+the last using negative indexes
+name="nitheesh"
+print(name[0]) //n
+print(name[-1]) //h
+print(name[0:3]) //nit
+print(name[0:]) //nitheesh
+print(name[1:-1]) //ithees
+
+formatted strings
+We use curly braces with in we write the name of the variable we want to display
+with a f before the string declearation, this is used for dynamically inserting the strings
+first = nitheesh
+name = f'{first} is the name of user'
+
+string methods:
+name = 'nitheesh'
+print(len(name)) //8
+name.upper()
+name.lower()
+name.find(t) //returns the index of t
+name.replace('ee', 'e') // will replace ee in name to e
+print("ee" in name) //it returns true or false on basis of the string is available or not
+
+Arithmetic Operations:
+print(10 + 3)
+print(10 - 3)
+print(10 * 3)
+print(10 / 3) //3.33
+print(10 // 3) //3
+print(10 % 3) //1
+print(10 ** 3) //1000 this is exponent operator
+agumented operator
+x += 3 //this is equal to x = x+3
+
+operator precedence: BODMOS(bracket, order, division, multiplication, addition, substraction)
+the order in which the operators are executed
+
+math functions:
+x=2.9
+round(x) //3
+abs(-2.9)  //2.9 abs function gives us positive value even if we pass negative value
+we can also use math library by importing it
+math.ceil(2.9) //3 this gives the upper limit of the varivbale
+math.floor(2.9) //2 this gives the lower limit of the variable
 
 
+if statements:
+price = 1000000
+good_credit = True
+if good_credit:
+    down_payment = 0.1 * 1000000
+else:
+    down_payment = 0.2 * 1000000
+print(f"Down Payment: {down_payment}")
 
 
+Logical operators:
+and, or are logical operators
+we use and when two conditions must be true and or when only one is true
+if ............. and/or/and not ........... :
+	print()
+we use not operator when we dont want that condition to be true	
 
+
+comparison operators:
+<, <=, >, >=, ==, != are some of the operators
 
 
 
@@ -34,3 +106,5 @@ print()-> for printing the data
 input()-> to recievie input
 type()-> this is used to find the tyoe of the variable
 int(variable)-> this is used to convert string into integer
+len()-> to find the length of a string
+math functions-> used with math prefix and by importing math module 
